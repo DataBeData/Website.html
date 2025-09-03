@@ -1,3 +1,8 @@
+@font-face {
+    src: url(fonts/StoryScript-Regular.ttf);
+    font-family: Story Script;
+
+}
 body{
     background-color: bisque;
 }
@@ -22,3 +27,10 @@ p{
     font-weight:bold;
 }
 
+/* you can also use google fonts. you can find them online just google it 
+you can also download it, see folder, else you need to use <link>-tag  */
+
+
+.even{
+    font-family: Story Script;
+}
