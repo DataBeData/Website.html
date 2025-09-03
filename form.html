@@ -7,7 +7,8 @@
     <link rel="icon" type="image/ico" href="media\images\favicon.ico">
 </head>
 <body>
-    <form action="index.php" method="post" >
+    <form action="index.php" method="post" enctype="multipart/form-data" >
+        <!--if you want to send large files need to change the encryption so files are breaked into parts and afterwards reasembled-->
         <!-- for  cursor will move to text box and great for audio visual impaired-->
         <label for="username">username: </label>
         <input type="text" id="username" placeholder="First & Last Name" minlength="6" maxlength="15" required>
