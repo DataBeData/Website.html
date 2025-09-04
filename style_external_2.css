@@ -2,10 +2,29 @@ h1{
     text-shadow: 3px 2px 3px rgb(238, 71, 71), -3px -2px 3px rgb(71, 113, 238);
 }
 #box1{
-
+    margin:0px;
     width: 100px;
     height: 100px;
     background-color: gray;
     box-shadow: 3px 3px 5px;
+}
 
+.box{
+    height: 65px;
+    width: 600px;
+    border-style: double;
+    box-shadow: 3px 10px 5px;
+    color: rgb(0, 0, 0);
+}
+
+#boxA{
+    background-color: blueviolet;
+    color: rgb(155, 20, 20);
+    margin: 45px;
+  
+}
+
+#boxB{
+    background-color: aquamarine;
+    margin: auto;
 }
