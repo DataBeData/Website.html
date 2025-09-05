@@ -1,0 +1,27 @@
+body{
+    background-image: url(media/images/pexels-eberhardgross-1612352.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+h1{
+    font-size: larger; font-weight: bold;
+}
+
+
+/* display & positions*/
+
+
+/* pseudo classes*/
+
+/* pseudo elements*/
+
+/* combinators are a sort of inheritance
+ _(space) decendant
+ > child
+ ~ general sibling
+ + adjacent sibling
+*/
+
+
