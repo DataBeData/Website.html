@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: bisque;
+    color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+.navigation{
+    background-color: burlywood;
+    text-align: center;
+    padding: 15px;
+}
+.nav_block {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Optional: adds space between items */
+}
+
+.nav_block a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.402);
+}
+
+.nav_block a:hover{
+  color:  aliceblue; 
+  
+}
