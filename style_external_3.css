@@ -10,8 +10,10 @@ h1{
 }
 
 
-/* display & positions*/
+/* display: change the behavior of block or inline element (block, inline, inline-block, none) 
+or visibility: hidden */
 
+/* positions*/
 
 /* pseudo classes*/
 
@@ -25,3 +27,23 @@ h1{
 */
 
 
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding: 8px 15px;
+    display:inline-block;
+}
+
+.pagination a.active{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: beige;
+    border-radius: 5px;
+}
