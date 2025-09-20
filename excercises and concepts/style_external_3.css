@@ -1,0 +1,130 @@
+body{
+    background-image: url(media/images/pexels-eberhardgross-1612352.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+header{
+    color: rgb(244, 79, 253);
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgba(113, 97, 78, 0.493);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+ .navbar a{
+    color: beige;
+    text-decoration: none; 
+    padding: 15px;
+    display: block;
+    text-align: center;
+ }
+
+ .navbar a:hover{
+    background-color: rgba(225, 149, 50, 0.281);
+ }
+
+ .navbar li{
+    float: left;
+ }
+h1{
+    font-size: larger; font-weight: bold;
+    color:rgb(41, 52, 212)
+}
+
+/* pseudo elements*/
+#text::first-letter{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+/* positions : sticky relative absolute fixed*/
+
+.pagination{
+    text-align: center;
+}
+
+/* display: change the behavior of block or inline element (block, inline, inline-block, none) 
+or visibility: hidden */
+.pagination a{
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding: 8px 15px;
+    display:inline-block;
+}
+
+.container p{
+    color:whitesmoke
+}
+
+/* combinators are a sort of inheritance
+ _(space) decendant
+ > child
+ ~ general sibling
+ + adjacent sibling
+*/
+.pagination a.active{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* pseudo classes*/
+.pagination a:hover:not(.active){
+    background-color: rgb(162, 28, 211);
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(130, 191, 244);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: rgb(224, 118, 118);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    background-color: aqua;
+    position: absolute;
+    display: none;
+    min-width: 100px;
+    box-shadow: 3px 3px 5px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: blueviolet;
+}
+
+.dropdown a:hover{
+    background-color: rgba(128, 255, 0, 0.199);
+}

@@ -1,0 +1,63 @@
+@font-face {
+    src: url(fonts/StoryScript-Regular.ttf);
+    font-family: Story Script;
+
+}
+body{
+    background-color: bisque;
+    border-style: inset;
+}
+h1{
+    border-style: solid; border-width: 3px; border-color: rgb(205, 24, 199);
+    border-radius: 5px;
+    color: rebeccapurple; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    border-bottom: 3px double olive ;
+    color: black; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 0.9em;
+}
+#p1{ 
+    border: 3px solid hsl(22, 100%, 57%);
+    border-radius: 20px;
+    color: green; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: medium; 
+    font-style: italic;
+}
+.odd{
+    color: rgb(234, 21, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight:bold;
+}
+
+/* you can also use google fonts. you can find them online just google it 
+you can also download it, see folder, else you need to use <link>-tag  */
+
+.even{
+    font-family: Story Script;
+}
+
+
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding: 8px 15px;
+    display:inline-block;
+}
+
+.pagination a.active{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: beige;
+    border-radius: 5px;
+}

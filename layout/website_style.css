@@ -1,0 +1,73 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: bisque;
+    color: goldenrod;
+    text-align: center;
+    padding: 30px;
+}
+h1{
+  padding-top: 25px;
+}
+
+.navigation{
+    background-color: burlywood;
+    text-align: center;
+    padding: 15px;
+}
+.nav_block {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Optional: adds space between items */
+}
+.nav_block a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.402);
+}
+.nav_block a:hover{
+  color:  aliceblue; 
+  
+}
+h4{
+  color: blueviolet;
+  padding-top: 5px;
+}
+aside{
+  height: 300px;
+  width:  200px;
+  border: 1px, solid;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  overflow: auto;
+  float: left;
+}
+section{
+  height: 300px;
+  border: 1px, solid;
+  margin: 5px;
+  text-align: center;
+  float: left;
+}
+article{
+  height: 300px;
+  border: 1px, solid;
+  margin: 5px;
+  text-align: center;
+  
+}
+footer div{
+  text-align: center;
+  background-color: bisque;
+  color: goldenrod;
+  padding: 10px 0; /* Reduce vertical padding */
+  min-height: 40px; /* Set a minimum height */
+  font-size: 1em;   /* Adjust font size if needed */
+}

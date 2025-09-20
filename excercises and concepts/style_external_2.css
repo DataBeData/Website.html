@@ -1,0 +1,81 @@
+h1{
+    text-shadow: 3px 2px 3px rgb(238, 71, 71), -3px -2px 3px rgb(71, 113, 238);
+}
+#box1{
+    margin:0px;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    box-shadow: 3px 3px 5px;
+}
+
+.box{
+    height: 65px;
+    width: 600px;
+    border-style: double;
+    box-shadow: 3px 10px 5px;
+    color: rgb(0, 0, 0);
+}
+
+#boxA{
+    background-color: blueviolet;
+    color: rgb(155, 20, 20);
+    margin: 45px;
+  
+}
+
+#boxB{
+    background-color: aquamarine;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#boxC{
+    border: 5px salmon solid;
+    display: flow-root;
+}
+
+#boxD{
+    border: 4px burlywood dashed; background-color: azure; color: chocolate;
+    overflow: auto;
+    margin: 20px;
+    height: 75px;
+    width: 550px;
+}
+
+#image1{
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#image2{
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    padding: 8px 15px;
+    display:inline-block;
+}
+
+.pagination a.active{
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: beige;
+    border-radius: 5px;
+}
